@@ -1,8 +1,5 @@
-// @flow
-
 class Dog {
-  name: string
-  constructor(name: string) {
+  constructor(name) {
     this.name = name
   }
 
@@ -10,4 +7,5 @@ class Dog {
     return `Roof! Roof! I am ${this.name}`
   }
 }
-export default Dog
+
+module.exports = Dog
